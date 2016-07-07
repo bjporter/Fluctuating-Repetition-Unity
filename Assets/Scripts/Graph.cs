@@ -3,9 +3,6 @@ using System.Collections;
 using UnityEngine.UI;
 
 
-/*
-Warning: Mathf
-*/
 public class Graph : MonoBehaviour {
     public int resolution = 10;
     public float a = 1f;
@@ -123,6 +120,11 @@ public class Graph : MonoBehaviour {
 
         xn = new_x;
         yn = new_y;
+
+	/*
+	Reminder: there's a bug when zn gets too large - plots blow up.
+	*/
+
         zn = zn + increment;
 
 
