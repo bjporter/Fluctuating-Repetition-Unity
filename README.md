@@ -6,8 +6,6 @@ Includes sliders for a-f values, a randomize button, and allows for smooth chang
 
 ![screenshot](http://i.imgur.com/SQn1C2g.gif)
 
-![screenshot](http://i.imgur.com/1U2Hcdp.gif)
-
 
 
 
